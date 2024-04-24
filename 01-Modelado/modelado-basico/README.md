@@ -2,7 +2,7 @@
 
 ![Modelado de la base de datos](./content/modelado.png)
 
-Este modelado me parece el más optimo para el sitio web al que va dirigido, en este caso, un portal de cursos con lecciones
+Este modelado me parece el más optimo para el sitio web al que va dirigido, en este caso, un portal de cursos con lecciones. Vamos a verlo paso a paso:
 
 ## Patrones aplicados
 

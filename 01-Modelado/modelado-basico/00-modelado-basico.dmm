@@ -3,7 +3,7 @@
 		"4222a63f-00db-407e-86b5-f9dbf7929109": {
 			"id": "4222a63f-00db-407e-86b5-f9dbf7929109",
 			"visible": true,
-			"name": "curso",
+			"name": "courses",
 			"desc": "",
 			"estimatedSize": "",
 			"cols": [
@@ -25,7 +25,7 @@
 				},
 				{
 					"id": "d30ef4a3-bb03-40e6-afe7-a6fab3e6252f",
-					"name": "nombre",
+					"name": "name",
 					"datatype": "string",
 					"param": "",
 					"pk": false,
@@ -41,7 +41,7 @@
 				},
 				{
 					"id": "1829641e-65d1-4467-afa5-84e2ddd727a0",
-					"name": "descripcion",
+					"name": "description",
 					"datatype": "string",
 					"param": "",
 					"pk": false,
@@ -57,7 +57,7 @@
 				},
 				{
 					"id": "db0b3605-f964-49b4-9986-cb2e2443fcac",
-					"name": "lecciones",
+					"name": "lessons",
 					"datatype": "3681ab2c-7275-4f6a-a13e-5ed816d3443b",
 					"param": "",
 					"pk": false,
@@ -73,7 +73,7 @@
 				},
 				{
 					"id": "fb239642-a6e5-44bd-aef5-9e4077ab2f08",
-					"name": "autores",
+					"name": "authors",
 					"datatype": "fb30b6b3-872c-45a9-aa9e-747b462ab285",
 					"param": "",
 					"pk": false,
@@ -89,7 +89,7 @@
 				},
 				{
 					"id": "8e457824-c091-4af6-a002-c91ac9b45221",
-					"name": "fechaCreacion",
+					"name": "dateCreation",
 					"datatype": "date",
 					"param": "",
 					"pk": false,
@@ -176,7 +176,7 @@
 				},
 				{
 					"id": "1ed4ab05-fb92-45b0-a264-d9e2452f998d",
-					"name": "idArticulo",
+					"name": "idArticle",
 					"datatype": "string",
 					"param": "",
 					"pk": false,
@@ -192,7 +192,7 @@
 				},
 				{
 					"id": "211f1536-e5f5-46a8-aa9a-a505def1b506",
-					"name": "autor",
+					"name": "authors",
 					"datatype": "8467e478-6677-4a47-b094-35aad811ea7e",
 					"param": "",
 					"pk": false,
@@ -208,7 +208,7 @@
 				},
 				{
 					"id": "667fb4f5-029a-4081-936d-9b9b28a51c32",
-					"name": "orden",
+					"name": "order",
 					"datatype": "int",
 					"param": "",
 					"pk": false,
@@ -274,7 +274,7 @@
 				},
 				{
 					"id": "4809fcca-18f2-4f58-bf48-113808446ba4",
-					"name": "nombre",
+					"name": "name",
 					"datatype": "string",
 					"param": "",
 					"pk": false,
@@ -318,7 +318,7 @@
 		"92bf1093-70d9-4199-9af2-e0403099f153": {
 			"id": "92bf1093-70d9-4199-9af2-e0403099f153",
 			"visible": true,
-			"name": "autor",
+			"name": "author",
 			"desc": "",
 			"estimatedSize": "",
 			"cols": [
@@ -340,7 +340,7 @@
 				},
 				{
 					"id": "82623176-071a-4a0c-a921-ef6f1163e4db",
-					"name": "nombre",
+					"name": "name",
 					"datatype": "string",
 					"param": "",
 					"pk": false,
@@ -356,7 +356,7 @@
 				},
 				{
 					"id": "35322f9a-4df5-4eb5-a9bd-22bef9b9a12f",
-					"name": "biografia",
+					"name": "biography",
 					"datatype": "string",
 					"param": "",
 					"pk": false,
@@ -372,7 +372,7 @@
 				},
 				{
 					"id": "6571abcd-401e-4e06-846d-6c6e645642e5",
-					"name": "imagenUrl",
+					"name": "imageUrl",
 					"datatype": "string",
 					"param": "",
 					"pk": false,
@@ -404,7 +404,7 @@
 				},
 				{
 					"id": "adbbc0c0-d40a-4f3b-a8c4-d4bcce802be7",
-					"name": "cursos",
+					"name": "courses",
 					"datatype": "065229d1-4597-49c2-9367-1389572069bd",
 					"param": "",
 					"pk": false,
@@ -459,7 +459,7 @@
 			"cols": [
 				{
 					"id": "30b63c17-946c-4a5d-9183-50e8c5ae6fa9",
-					"name": "tipo",
+					"name": "type",
 					"datatype": "string",
 					"param": "",
 					"pk": false,
@@ -541,7 +541,7 @@
 				},
 				{
 					"id": "755171c1-2a8e-4da8-85fe-4eb6c6fc47c7",
-					"name": "nombre",
+					"name": "name",
 					"datatype": "string",
 					"param": "",
 					"pk": false,
@@ -557,7 +557,7 @@
 				},
 				{
 					"id": "1c33d77c-2653-4844-9bd3-4c9145935111",
-					"name": "descripcion",
+					"name": "description",
 					"datatype": "string",
 					"param": "",
 					"pk": false,
@@ -623,7 +623,7 @@
 				},
 				{
 					"id": "10142867-a1f9-4603-8d34-86fb8afd28f8",
-					"name": "nombre",
+					"name": "name",
 					"datatype": "string",
 					"param": "",
 					"pk": false,
@@ -667,7 +667,7 @@
 		"bd4366c1-4b06-4d0d-ab19-18ac6cc61f87": {
 			"id": "bd4366c1-4b06-4d0d-ab19-18ac6cc61f87",
 			"visible": true,
-			"name": "tematica",
+			"name": "categories",
 			"desc": "",
 			"estimatedSize": "",
 			"cols": [
@@ -689,7 +689,7 @@
 				},
 				{
 					"id": "b53240b7-e564-4e2f-9d24-6510e732a5e6",
-					"name": "nombre",
+					"name": "name",
 					"datatype": "string",
 					"param": "",
 					"pk": false,
@@ -705,7 +705,7 @@
 				},
 				{
 					"id": "520cf757-5960-4e33-a3ae-a1de36d8b20f",
-					"name": "cursos",
+					"name": "courses",
 					"datatype": "2cb94687-ab3c-46fe-b1ea-d42daf4f1268",
 					"param": "",
 					"pk": false,
@@ -776,7 +776,7 @@
 				},
 				{
 					"id": "956bcce1-0f36-4cc2-8b35-859b7713429d",
-					"name": "nombre",
+					"name": "name",
 					"datatype": "string",
 					"param": "",
 					"pk": false,
@@ -792,7 +792,7 @@
 				},
 				{
 					"id": "73e42af8-cb0c-43a7-b09e-a36a9c28c6e7",
-					"name": "descripcion",
+					"name": "description",
 					"datatype": "string",
 					"param": "",
 					"pk": false,
@@ -871,7 +871,7 @@
 		"def_collation": "",
 		"def_others": "",
 		"connectionVersion": "",
-		"lastSaved": 1713352223645
+		"lastSaved": 1713356053252
 	},
 	"otherObjects": {},
 	"diagrams": {
@@ -892,7 +892,7 @@
 					"x": 867,
 					"y": 186,
 					"gHeight": 297,
-					"gWidth": 220,
+					"gWidth": 213,
 					"color": "#ffffff",
 					"background": "#03a9f4",
 					"resized": false,
@@ -931,7 +931,7 @@
 					"x": 867,
 					"y": 528,
 					"gHeight": 225,
-					"gWidth": 205,
+					"gWidth": 209,
 					"color": "#ffffff",
 					"background": "#03a9f4",
 					"resized": false,
@@ -983,7 +983,7 @@
 					"x": 384,
 					"y": 324,
 					"gHeight": 135,
-					"gWidth": 203,
+					"gWidth": 209,
 					"color": "#ffffff",
 					"background": "#03a9f4",
 					"resized": false,
