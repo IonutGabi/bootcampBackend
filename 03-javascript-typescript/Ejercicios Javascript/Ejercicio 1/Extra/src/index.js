@@ -11,13 +11,11 @@ const data = `id,name,surname,gender,email,picture
 61539018,Marco,Calvo,male,marco.calvo@example.com,https://randomuser.me/api/portraits/men/86.jpg`;
 
 const fromCSV = (csv, nAttrs) => {
-  const result = [];
-  const csvWithoutSpaces = csv.split("\n");
-  csvWithoutSpaces.forEach((row) => {
+  const csvWithoutWhiteSpaces = csv.split("\n");
+  const result = csvWithoutWhiteSpaces.slice(1).map((row) => {
     const [id, name, surname, gender, email, picture] = row.split(",", nAttrs);
-    result.push({ id, name, surname, gender, email, picture });
+    return { id, name, surname, gender, email, picture };
   });
-  result.shift();
   return result;
 };
 

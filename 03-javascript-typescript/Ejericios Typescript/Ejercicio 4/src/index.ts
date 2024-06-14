@@ -1,7 +1,7 @@
 interface Student {
-  name?: string;
+  name: string;
   age: number;
-  occupation?: string;
+  occupation: string;
 }
 
 const students: Student[] = [
@@ -29,7 +29,7 @@ const students: Student[] = [
 
 const filterStudentsBy = (
   students: Student[],
-  criteria: Student
+  criteria: Partial<Student>
 ): Student[] => {
   return students.filter((user) => {
     const criteriaKeys = Object.keys(criteria);
